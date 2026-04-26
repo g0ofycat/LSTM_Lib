@@ -4,8 +4,9 @@ import os
 # // CONSTANTS
 # =========================
 
-INPUT_PATH    = "./data/luau_export/w9.lua"
-OUTPUT_DIR    = "./data/parts"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_PATH = os.path.join(SCRIPT_DIR, "../data/luau_export/w9.lua")
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "../data/parts")
 LINES_PER_PART = 1000
 
 # =========================

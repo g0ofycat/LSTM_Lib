@@ -5,8 +5,9 @@ import os
 # // CONSTANTS
 # =========================
 
-INPUT_PATH   = "./data/lstm_export.json"
-OUTPUT_DIR   = "./data/luau_export"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_PATH = os.path.join(SCRIPT_DIR, "../data/lstm_export.json")
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "../data/luau_export")
 WEIGHT_COUNT = 9
 
 # =========================
