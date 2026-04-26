@@ -1,1 +1,2 @@
+py/data filter=lfs diff=lfs merge=lfs -text
 py/data/lstm_export.json filter=lfs diff=lfs merge=lfs -text
